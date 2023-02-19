@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Management System</title>
+    <style>
+       *{
+            margin:0;
+        }
+        .main{
+            display:flex;
+            justify-content: space-between;
+            height: 50px;
+            background-color:skyblue;
+        }
+        .one{
+            margin-left:10px;
+            display:flex ;
+           
+        }
+        .two{
+            display:flex;
+            justify-content: space-between;
+            font-size:50px;
+            margin-top:-10px;
+            color: #fff;
+        }
+        .three{
+            display:flex;
+          
+        }
+
+       .nav{
+        width: 100%;
+        background:#000033;
+        height:50px;
+
+       } 
+       ul{
+        list-style:none;
+        padding: 0px;
+        margin-left:-50px;
+        position:absolute;
+       
+       }
+       ul li{
+       text-align: center;
+        margin-top: -15px;
+        padding-left: 90px;
+        margin-right: -40px;
+        padding-bottom: 50px;
+       
+       }
+       ul li a{
+        width:150px;
+        color:#fff;
+        display: block;
+        text-decoration: none;
+        font-size: 20px;
+        text-align: center;
+        border-radius:10px ;
+        font-family: Century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+       }
+       span{
+        color:yellow;
+       }
+    nav a:hover{
+        background-color:#669900;
+       }
+       ul li ul li{
+        background-color:#000033 ;
+       }
+       ul li ul li{
+        float:none;
+       }
+       li a, .dropbtn {
+  display: inline-block;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover, .dropdown:hover .dropbtn {
+  background-color:#669900;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #669900;
+  min-width: 200px;
+  border-radius: 20px;
+  box-shadow: 0px 8px 16px 0px ;
+  z-index: 1;
+}
+.main li{
+padding:20px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;border-radius:10px;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.h1{
+        padding: 5px 10px;
+       }
+        ul{
+            display: flex;
+            text-decoration:none;
+            list-style-type:none;
+            justify-content: space-between;
+           
+        }
+        li{
+            text-decoration: none;
+            margin-top:40px;
+           padding:10px 10px;
+           border: none;
+        }
+            a{
+                text-decoration: none;
+                 text-align: top left;
+                 justify-content:flex-end;
+
+               }
+               .grid{
+                display:grid;
+               }
+               .chairman{
+                display:flex;
+                color:#fff;
+                height:550px;
+                width: 100%;
+                background-color:#3232dc;
+                list-style-type: none;
+               }
+               .chairman img{ margin:40px;
+            height: 400px;}
+            .chairman span{
+              font-size: 70px;
+              color: yellow;
+            }
+            .m{
+              padding-top: -20px;
+              text-overflow: ellipsis;
+              overflow: hidden;
+            }
+            .p h2{
+              margin-left: 80px;
+              margin-top: -40px;
+
+            }
+           
+               .c2{
+               height: 100px;
+               width: 100%;
+               background-color: #bbb;
+               font-size:25px;
+               font-weight: 100px;
+               padding-top: 30px;
+               text-overflow: ellipsis;
+              overflow:hidden;
+               }
+               .c2 span{
+                font-size: 40px;
+               }
+               .c3{
+                display: flex;
+                justify-content:space-between ;
+                list-style-type:none;
+                height:400px;
+                width:100%;
+                padding:10px  10px;
+                background-color:#0e0e78;
+                font-size: 15px;
+                color: #f0f0f0;
+                align-items:center;
+               
+               }
+               .c3 li{
+                  text-decoration: none;
+               }
+               .c4{
+                height:400px;
+                display:flex;
+                padding-top:60px;
+                justify-content: space-between;
+                text-overflow: ellipsis;
+                overflow: hidden;
+               }
+               ul li{
+                display:inline-block;
+                
+               }
+               ul li a{
+                text-decoration:none;
+                padding:5px 10px 5px 10px;
+               }
+               ul li a:hover{
+               background-color:white;
+                
+               }
+               ul{
+                padding:0;
+               }
+               h4 a{
+                color:black;
+               }
+               .h11{
+                font-size: 55px;
+                letter-spacing: 1px;
+                cursor: pointer;
+               }
+               span{
+                color:#fff;
+               }
+               i{
+                padding:20px 20px;
+                color:black;
+               }
+                li a i{
+                  border:none;
+                }
+             .c4 li p{
+                margin-top:-30px;
+             }
+             .y1{
+                margin-top: -40px;
+             }
+             .container{
+
+display: flex;
+justify-content: center;
+background-color: rgb(255, 255, 255);
+}
+.container p{
+  padding-top:-60px;
+}
+
+.card1 {
+  background:#b4f435;
+  height: 500px;
+  width: 370px;
+  margin: 30px;
+  text-align: center;
+  border-radius: 30px 30px;
+  padding-top: 30px;
+  
+
+}
+.card1:hover{
+  background-color:#669900;
+  
+}
+.card2:hover{
+  background-color: #669900;
+  
+}
+.card3:hover{
+  background-color: #669900;
+  
+}
+
+
+.card2 {
+  background:#b4f435;
+  height: 500px;
+  width: 370px;
+  margin: 30px;
+  text-align: center;
+  border-radius: 30px 30px;
+  padding-top: 30px;
+
+
+}
+
+.card3 {
+  background:#b4f435;
+  height: 500px;
+  width: 370px;
+  margin: 30px;
+  text-align: center;
+  border-radius: 30px 30px;
+  padding-top: 30px;
+
+
+}
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 750px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+marquee{
+    background-color:palevioletred;
+    height: 30px;
+    font-size: 25px;
+    position:static;
+}
+.c8{
+  padding:-20px;
+}
+.mapouter{
+  margin-top: 50px;
+}
+.c8{
+  margin-top: -100px;
+  margin-left: 100px;
+}
+.c5{
+  margin-right:100px;
+}
+.c9{
+  margin-left: 200px;
+  margin-top: -100px;
+  margin-right:100px;
+}
+.c5{
+  margin-left: 100px;
+  margin-top: -100px;
+}
+h6 a{
+  text-decoration: none;
+  list-style-type: none;
+  color: #fff;
+}
+.sticky{
+  position:sticky;
+  top:0px;
+}
+.logos{
+  display: flex;
+}
+.c10{
+  height: 75vh;
+  width:100%;
+  background-color: #0e0e78;
+}
+.logos{
+  margin-left:100px;
+}
+.logos h6{
+  margin-left: 10px;
+}
+hr{
+  border-radius: 10px;
+}
+#h{
+ margin-left:900px;
+}
+
+</style>
+</head>
+<body>
+    <div class="main">
+        <div class="one">
+           <img src="https://thumbs.dreamstime.com/z/basic-rgb-177148443.jpg" width="70px">
+        </div>
+        <div class="two">
+         viswanand school of education 
+        </div>
+        <div class="three">
+           <img src="https://thumbs.dreamstime.com/b/excellent-education-school-vector-icon-logo-design-excellent-education-school-vector-icon-logo-design-template-135346123.jpg"  width="80px"> 
+        </div>
+    </div>
+    <div class="nav">
+        <ul>
+            <li class="dropdown">
+                <a href="http://127.0.0.1:5500/fontpage.html" class="dropbtn">Home</a>
+               
+                </li> <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Acedamics</a>
+                    <div class="dropdown-content">
+                      <a href="/acedamics1.html">High school</a>
+                      <a href="acedamics.html">Primary</a>
+                      <a href="prepri.html">pre Primary</a>
+                    </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">Admissions</a>
+                        <div class="dropdown-content">
+                          <a href="/online_ad.html"> online Admissions</a>
+                          <a href="admission.html"> offline Admissions</a>
+                        </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="/gallery.html" class="dropbtn">Gallery</a>
+                            
+                            </li>
+                            <li class="dropdown">
+                                <a href="/about.html" class="dropbtn">About Us</a> </li>
+                            <li class="dropdown"><a href="/contact.html" class="dropbtn">ContactUs</a></li>
+        </ul>
+    </div>
+    <marquee behavior="" direction="left"><img src="https://cdn-icons-png.flaticon.com/512/2048/2048907.png" alt="none" height="20px">  6-10-2022 to 7-10-2022 cricket game is going to be conducted.Interested students can participate.</marquee>
+
+    <div class="body">
+    <div class="c1">
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="https://media.gettyimages.com/photos/children-cheering-in-classroom-picture-id1148218795?k=20&m=1148218795&s=612x612&w=0&h=Ft9V4m_whyT9Mq2T1LLOx1j6aZbcVmu3Tv3d8YFzFZo=" style="width:100%">
+       
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="https://media.istockphoto.com/photos/group-of-schoolboys-and-schoolgirls-at-school-campus-picture-id1163985429?k=20&m=1163985429&s=612x612&w=0&h=qZgHOsrwkQROIrEP2qXHzb-qfvVYHHchRJtDC8bbE60=" style="width:100%">
+          
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="https://media.gettyimages.com/photos/indian-high-school-student-stock-image-picture-id1072480658?k=20&m=1072480658&s=612x612&w=0&h=rNnwrMWTL8GqOSMkRZDRKXyxcTNQo2j5Ilultx_9EGw=" style="width:100%">
+        </div>
+        
+        </div>
+        
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+          <br>
+          
+        
+  </div>
+  </div>
+   <div class="chairman">
+         <div class="i"><img src="https://lbrce.ac.in/faculty/assets/images/profiles/it/t201.jpg" alt="sir"></div>
+         <span>|</span><div class="m">
+          <li><h1>DR.SRINIVASA RAO</h1>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni repudiandae eligendi delectus corporis corrupti totam esse nam? Animi error quia distinctio omnis rem, expedita atque perferendis quam sint explicabo pariatur!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex amet vitae porro alias sed magni, facere vel accusamus omnis sit cum molestiae provident ipsum, ipsam voluptatem qui ad et officiis.
+            <a href="chairman.html">more</a>
+         </div>
+                   
+              <div class="p"><img src="https://i.pinimg.com/originals/0b/a1/51/0ba151d85fc708f26a9f80a7d9c1750e.png" alt=""><h2>principal <br>dr.B.Apparao <br> LBRCE,mylavaram<h2>
+              </div>
+   </div>
+<div class="c2">
+  <ul>
+      <li>100+ Faculty <span>|</span></li>
+      <li>1000+ students<span>|</span></li>
+      <li>10 years experience<span>|</span></li>
+      <li>5 rating<span>|</span></li>
+      <li>10+ campuses<span></span></li>
+
+  </ul>
+</div>
+<div class="c4">
+  <ul><li><div class="y1"><iframe width="560" height="315" src="https://www.youtube.com/embed/-X7okpS9Ufc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen float="right"></iframe></div></li>
+  <li> <p>laboriosam in odio iste id iusto quia ratione perspiciatis
+      suscipit? Enim non perspiciatis ullam quod dolore deserunt suscipit? Enim non perspiciatis ullam quod dolore deserunt
+      suscipit? Enim non perspiciatis ullam quod dolore deserunt suscipit? Enim non perspiciatis ullam quod dolore deserunt
+      suscipit? Enim non perspiciatis ullam quod dolore deserunt suscipit? Enim non perspiciatis ullam quod dolore deserunt
+      suscipit? Enim non perspiciatis ullam quod dolore deserunt laboriosam in odio iste id iusto quia ratione perspiciatis
+      suscipit? Enim non perspiciatis ullam quod dolore deserunt suscipit? Enim non perspiciatis ullam quod dolore deserunt
+      suscipit? Enim non perspiciatis ullam quod dolore deserunt suscipit? Enim non perspiciatis ullam quod dolore deserunt
+      suscipit? Enim non perspiciatis ullam quod dolore deserunt suscipit? Enim non perspiciatis ullam quod dolore deserunt
+      suscipit? Enim non perspiciatis ullam quod dolore deserunt suscipit? Enim non perspiciatis ullam quod dolore deserunt
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem blanditiis unde, sequi maxime libero, quo repellendus dolore commodi voluptas beatae autem assumenda? Quod, repellendus? Vitae voluptatibus quia dolor aliquid omnis.
+      <a href="#">..more</a></p> </li></ul>
+</div>
+<div class="container">
+
+<div class="card1">
+
+  <img src="VISION.gif" alt="VISION" width=150px;height=150px;><br><br>
+  <P>Lorem ipsum dolor sit amet  consectetur adipisicing elit. Doloribus dicta mollitia quos distinctio incidunt omnis  sed modi amet ipsa! Doloribus sit a excepturi mollitia omnis  explicabo quidem necessitatibus tenetur ab?</P>
+</div>
+<div class="card2">
+  <img src="VISION (2).gif" alt="VISION" width=150px; height=150px;><br><br>
+  <P>Lorem ipsum dolor sit amet  consectetur adipisicing elit. Doloribus dicta mollitia quos distinctio incidunt omnis  sed modi amet ipsa! Doloribus sit a excepturi mollitia omnis  explicabo quidem necessitatibus tenetur ab?</P>
+
+</div>
+<div class="card3">
+  <img src="VISION (1).gif" alt="VISION" width=150px; height=150px;><br><br>
+  <P>Lorem ipsum dolor sit amet  consectetur adipisicing elit. Doloribus dicta mollitia quos distinctio incidunt omnis  sed modi amet ipsa! Doloribus sit a excepturi mollitia omnis  explicabo quidem necessitatibus tenetur ab?</P>
+
+</div>
+</div>
+
+<div class="c10">
+  <div class="c3">
+    <div class="c5"> 
+        <br><br>
+        <h6><h1>About Us</h1></h6>
+       <h6><a href="/about.html">address</a></h6>
+       <h6><a href="/about.html">leadership</a></h6>
+        <h6><a href="/about.html">Facilities</a></h6><br>
+        <h6><h1>Contact Details</li></h6>
+    <h6><a href="tel:+91-33-2970 1438">(033) 2970 1438</a> / <br> <a href="tel:+91-7596949952">7596949952</a><br>
+      <a href="tel:+91-33-2970 1949">(033) 2970 1949</a> / <br> <a href="tel:+91-6292157834">6292157834</a><h6>
+    </div>
+  <div class="c9">
+  <div class="c6">
+    <h6><h1>Quick Links</h1></h6>
+        <h6><a href="#">school view</a></h6>
+        <h6><a href="/contact.html">Enquiry</a></h6>
+        <h6><a href="/contact.html">Other details</a></h6>
+    </div><br>
+  <div class="c7">
+        <h6><h1>Courses</h1></h6>
+        <h6><a href="#">Intermediate Board</a></h6>
+        <h6><a href="#">SSC Board</a></h6>
+       <h6><a href="#">Primary School</a></h6>
+         <h6><a href="#">Pre Primary School</a></h6>
+      </div>
+  </div>
+         <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=lbrce&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://formatjson.org/">Format JSON</a></div><style>.mapouter{position:relative;text-align:right;width:600px;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:600px;height:400px;}.gmap_iframe {width:500px!important;height:350px!important;}</style></div>
+        
+</div>
+<hr color="white"><br>
+<div class="logos">
+  <h6><img src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-circle-1024.png" alt="insta" height="40px" border-radius="20px"><a href="https://instagram.com/lbrce_it_department_mylavaram?igshid=YmMyMTA2M2Y="></a></h6>
+  <h6><img src="https://seeklogo.com/images/F/facebook-icon-logo-03865A9BA2-seeklogo.com.png" alt="" height="40px"><a href="#"></a></h6>
+   <h6><img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_youtube-512.png" alt="" height="40px"><a href="#"></a></h6>
+   <h id="h">@copyrights reserved</h>
+  </div> 
+</div>
+   </div>
+    </div>
+</body>
+<script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
+    
+    
+</html>
+
+

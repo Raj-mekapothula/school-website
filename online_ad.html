@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *{
+            margin:0;
+        }
+        .main{
+            display:flex;
+            justify-content: space-between;
+            height: 50px;
+            background-color:skyblue;
+        }
+        .one{
+            margin-left:10px;
+            display:flex ; 
+        }
+        .two{
+            display:flex;
+            font-size:30px;
+            margin-top:-10px;
+            color: #fff;
+        }
+        .three{
+            display:flex;
+          
+        }
+
+       .nav{
+        width: 100%;
+        background:#000033;
+        height:50px;
+       } 
+       ul{
+        list-style:none;
+        padding: 0px;
+        margin-left:-50px;
+        position:absolute;
+       
+       }
+       ul li{
+       text-align: center;
+        margin-top: 5px;
+        padding-left:50px;
+        margin-right: -40px;
+        padding-bottom: 50px;
+       
+       }
+       ul li a{
+        width:150px;
+        color:#fff;
+        display: block;
+        text-decoration: none;
+        font-size: 20px;
+        text-align: center;
+        border-radius:10px ;
+        font-family: Century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+       }
+       span{
+        color:yellow;
+       }
+    nav a:hover{
+        background-color:#669900;
+        padding-top:-50px;
+       }
+       ul li ul li{
+        background-color:#000033 ;
+       }
+       ul li ul li{
+        float:none;
+       }
+       li a, .dropbtn {
+  display: inline-block;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover, .dropdown:hover .dropbtn {
+  background-color:#669900;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #669900;
+  min-width: 200px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 8px 0px ;
+  z-index: 1;
+}
+.main li{
+padding:20px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;border-radius:10px;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}
+.one h1{
+            background-color:rgb(252, 36, 36);
+            padding-top:-15px;
+            margin-left: -8px;
+            width: 100%;
+            height:50px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .tb{
+          text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="one">
+           <img src="https://thumbs.dreamstime.com/z/basic-rgb-177148443.jpg" width="90px">
+        </div>
+        <div class="two">
+         <h1 style="color:#fff">viswanand school of education</h1>
+         
+        </div>
+        <div class="three">
+           <img src="https://thumbs.dreamstime.com/b/excellent-education-school-vector-icon-logo-design-excellent-education-school-vector-icon-logo-design-template-135346123.jpg"  width="100px" float="right"> 
+        </div>
+    </div>
+    
+    <div class="nav">
+        <ul>
+            <li class="dropdown">
+                <a href="http://127.0.0.1:5500/fontpage.html" class="dropbtn">Home</a>
+               
+                </li> <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Acedamics</a>
+                    <div class="dropdown-content">
+                      <a href="acedamics1.html">High school</a>
+                      <a href="acedamics.html">Primary</a>
+                      <a href="prepri.html">pre Primary</a>
+                    </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">Admissions</a>
+                        <div class="dropdown-content">
+                          <a href="online_ad.html">Online Admission</a>
+                          <a href="admission.html">Offline Admission</a>
+                        </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="/gallery.html" class="dropbtn" target="_self">Gallery</a>
+                            
+                            </li>
+                            <li class="dropdown">
+                                <a href="/about.html" class="dropbtn" target="_self">About Us</a>
+                                
+                                </li>
+                            <li class="dropdown">
+                                <a href="/contact.html" class="dropbtn">ContactUs</a>
+
+                                </li>
+        </ul>
+    </div> 
+    <div class="one">
+        <h1>Admissions</h1>
+      </div> <br>
+      <div class="tb">     
+<form action="">
+  CANDIDATE NAME:
+  <input type="text"
+         placeholder="enter name"> <br><br>
+  DATE OF BIRTH:
+  <input type="date"
+  placeholder="enter date of birth"       > <br><br>
+  MOBILE NO:
+  <input type="text"
+         placeholder="enter mobile number"> <br><br>
+  MOBILE NO MENTIONED ABOVE IS:
+  <input type="radio">self
+   <input type="radio">Father
+   <input type="radio">Mother
+   <input type="radio">Guardian <br><br>
+  ALTERNATIVE MOBILE NUMBER:
+  <input type="text"
+         placeholder="enter alternative mobile number"> <br><br>
+  EMAIL ID:
+  <input type="text"
+ placeholder="enter email id"> <br><br>
+  CATOGERY:
+  <input type="radio">O
+   <input type="radio">BC_A
+   <input type="radio">BC_B
+   <input type="radio">BC_C
+   <input type="radio">BC_D
+   <input type="radio">BC_E
+   <input type="radio">SC
+   <input type="radio">ST <br><br>
+  PHYSICALLY CHALLENGED:
+  <input type="radio">Yes
+   <input type="radio">No <br><br>
+  PAYMENT TYPE:
+  <input type="radio">Net Banking
+   <input type="radio">Credit Card
+   <input type="radio">Net Banking <br><br>
+  UPLOAD PHOTO:
+  <input type="file"> <br><br>
+  </r>
+  <input type="button" value="submit" background-color="red">
+</form>
+   
+    </body>
+ </th>
+</tr>
+      </div>
+</body>
+</html>

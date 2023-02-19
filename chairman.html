@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+                   *{
+            margin:0;
+        }
+        .main{
+            display:flex;
+            justify-content: space-between;
+            height: 50px;
+            background-color:skyblue;
+        }
+        .one{
+            margin-left:10px;
+            display:flex ;
+           
+        }
+        .two{
+            display:flex;
+            justify-content: space-between;
+            font-size:50px;
+            margin-top:-10px;
+            color: #fff;
+        }
+        .three{
+            display:flex;
+          
+        }
+
+       .nav{
+        width: 100%;
+        background:#000033;
+        height:50px;
+
+       } 
+       ul{
+        list-style:none;
+        padding: 0px;
+        margin-left:-50px;
+        position:absolute;
+       
+       }
+       ul li{
+       text-align: center;
+        margin-top: 5px;
+        padding-left: 60px;
+        margin-right: -40px;
+        padding-bottom: 50px;
+       
+       }
+       li{
+        display: flex;
+        
+       }
+       ul li a{
+        width:150px;
+        color:#fff;
+        display: block;
+        text-decoration: none;
+        font-size: 20px;
+        text-align: center;
+        border-radius:10px ;
+        font-family: Century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+       }
+       span{
+        color:yellow;
+       }
+    nav a:hover{
+        background-color:#669900;
+       }
+       ul li ul li{
+        background-color:#000033 ;
+       }
+       ul li ul li{
+        float:none;
+       }
+       li a, .dropbtn {
+  display: inline-block;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover, .dropdown:hover .dropbtn {
+  background-color:#669900;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #669900;
+  min-width: 200px;
+  border-radius: 20px;
+  box-shadow: 0px 8px 16px 0px ;
+  z-index: 1;
+}
+.main li{
+padding:20px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;border-radius:10px;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+marquee{
+    background-color:palevioletred;
+    height: 30px;
+    font-size: 25px;
+    position:static;
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="one">
+           <img src="https://thumbs.dreamstime.com/z/basic-rgb-177148443.jpg" width="70px">
+        </div>
+        <div class="two">
+         viswanand school of education 
+        </div>
+        <div class="three">
+           <img src="https://thumbs.dreamstime.com/b/excellent-education-school-vector-icon-logo-design-excellent-education-school-vector-icon-logo-design-template-135346123.jpg"  width="80px"> 
+        </div>
+    </div>
+    <div class="nav">
+        <ul>
+            <li class="dropdown">
+                <a href="http://127.0.0.1:5500/fontpage.html" class="dropbtn">Home</a>
+               
+                </li> <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Acedamics</a>
+                    <div class="dropdown-content">
+                      <a href="/acedamics1.html">High school</a>
+                      <a href="acedamics.html">Primary</a>
+                      <a href="prepri.html">pre Primary</a>
+                    </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">Admissions</a>
+                        <div class="dropdown-content">
+                          <a href="/online_ad.html"> online Admissions</a>
+                          <a href="admission.html"> offline Admissions</a>
+                        </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="/gallery.html" class="dropbtn">Gallery</a>
+                            
+                            </li>
+                            <li class="dropdown">
+                                <a href="/about.html" class="dropbtn">About Us</a> </li>
+                            <li class="dropdown"><a href="/contact.html" class="dropbtn">ContactUs</a></li>
+        </ul>
+    </div>
+    <marquee behavior="" direction="left"><img src="https://cdn-icons-png.flaticon.com/512/2048/2048907.png" alt="none" height="20px">  6-10-2022 to 7-10-2022 cricket game is going to be conducted.Interested students can participate.</marquee>
+
+    <div class="i"><img src="https://lbrce.ac.in/faculty/assets/images/profiles/it/t201.jpg" alt="sir"></div>
+    <span>|</span><div class="m">
+     <li><h1>DR.SRINIVASA RAO</h1>
+        <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni repudiandae eligendi delectus corporis corrupti totam esse nam? Animi error quia distinctio omnis rem, expedita atque perferendis quam sint explicabo pariatur!
+     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex amet vitae porro alias sed magni, facere vel accusamus omnis sit cum molestiae provident ipsum, ipsam voluptatem qui ad et officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nemo nesciunt, perferendis doloremque nostrum quidem doloribus laboriosam porro vero cupiditate aut obcaecati sit, fugit voluptatem magnam repudiandae! Quo, dignissimos quis.</li>
+      
+</body>
+</html>
